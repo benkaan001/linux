@@ -34,4 +34,5 @@ fi
 # echo $(( J*10+7))     --> 37
 # echo $J               --> 3
 '
+# NUM=$(( RANDOM % 6 ))             -> generate a random num between 0 and 5
 # declare -p <VARIABLENAME>         -> ie. "declare -p J" to view global variables declared in the shell
